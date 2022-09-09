@@ -7,7 +7,8 @@ int main(void)
 	long int longintType;
 	long long int longlongintType;
 	float floatType;
-/*main - print size of type using the msion functiopn sizeof
+/**
+*main - print size of type using the msion functiopn sizeof
  * Description:char type in byte(s)
  * Return 0 (success)
  */
