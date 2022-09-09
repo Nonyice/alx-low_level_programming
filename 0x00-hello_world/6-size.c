@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+/*program to print size of type*/
 int main(void)
 	{
 	char charType;
@@ -8,8 +8,8 @@ int main(void)
 	long long int longlongintType;
 	float floatType;
 /**
- *  prints size of type on this computer
- * Description:using the main function to print  sizeof char and types
+ * main -  prints size of type on this computer
+ * Description: using the main function to print  sizeof char and types
  * Return: 0(success)
  */
 	printf("size of a char: %zu bytes\n", sizeof(charType));
