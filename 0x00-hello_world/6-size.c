@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-	char charTypee;
+	char charType;
 	int intType;
 	long int longintType;
 	long long int longlongintType;
