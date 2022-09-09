@@ -8,10 +8,10 @@ int main(void)
 	long long int longlongintType;
 	float floatType;
 /**
- *  sizeof evaluates the size of types on this computer
- * Description:uses sizeof to print size of type
+ *  prints size of type on this computer
+ * Description:using the main function to print  sizeof char and types
  * Return: 0(success)
- * */
+ */
 	printf("size of a char: %zu bytes\n", sizeof(charType));
 	printf("size of an int: %zu bytes\n", sizeof(intType));
 	printf("size of a long int: %zu bytes\n", sizeof(longintType));
