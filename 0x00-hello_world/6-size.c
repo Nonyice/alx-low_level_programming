@@ -9,8 +9,8 @@ int main(void)
 	float floatType;
 /**
  * main - Entry point
- * @sizeof char: using sizeof function to print size   of char
- * @byte(s):the unit for measurement of size of type
+ * sizeof char: using sizeof function to print size   of char
+ * byte(s\n):the unit for measurement of size of type new line
  * Return: 0 (success)
  */
 	printf("Size of a char: %zu byte(s)\n", sizeof(charType));
