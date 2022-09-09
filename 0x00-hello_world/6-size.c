@@ -7,11 +7,9 @@ int main(void)
 	long int longintType;
 	long long int longlongintType;
 	float floatType;
-/**
- * main - Entry point
- * sizeof char: using sizeof function to print size   of char
- * byte(s\n):the unit for measurement of size of type new line
- * Return: 0 (success)
+/*main - print size of type using the msion functiopn sizeof
+ * Description:char type in byte(s)
+ * Return 0 (success)
  */
 	printf("Size of a char: %zu byte(s)\n", sizeof(charType));
 	printf("Size of an int: %zu byte(s)\n", sizeof(intType));
