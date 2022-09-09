@@ -1,6 +1,8 @@
 #include	<stdio.h>
 /**
- * main -Entry 	point
+ * main-prints the entry point in printf
+ * Description:uses the main function to write 
+ * a string
  * Return:- Always 0(success)
  */
 int	main(void)
