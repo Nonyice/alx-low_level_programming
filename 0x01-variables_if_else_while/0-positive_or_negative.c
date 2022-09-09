@@ -26,4 +26,5 @@ int main(void)
 	else 
 	{	printf("n is zero");
 	}
-			}
+		return	0;
+		}
