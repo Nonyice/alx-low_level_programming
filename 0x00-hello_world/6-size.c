@@ -6,7 +6,7 @@ int main(void)
 	int intType;
 	long int longintType;
 	long long int longlongintType;
-	float floatType;i
+	float floatType;
 /**
  * main -  prints size of type on this computer
  * Description: using the main function to print  sizeof char and types
