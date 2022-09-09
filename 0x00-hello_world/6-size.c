@@ -8,8 +8,9 @@ int main(void)
 	long long int longlongintType;
 	float floatType;
 /**
- * main-Entry point
- * Description: using sizeof function to print size   of char
+ * main - Entry point
+ * @sizeof char: using sizeof function to print size   of char
+ * @byte(s):the unit for measurement of size of type
  * Return: 0 (success)
  */
 	printf("Size of a char: %zu byte(s)\n", sizeof(charType));
