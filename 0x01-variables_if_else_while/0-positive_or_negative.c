@@ -12,8 +12,7 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 /*To determine if number is positive or negative*/
-	if (n > 0) 
-	{
+	if (n > 0) {
 		printf("%d is positive\n", n);
 	}
 	else if (n < 0)
@@ -21,6 +20,7 @@ int main(void)
 		printf("% is negative\n", n);
 	}
 	else 	(n = 0);
+	
 	{
 		printf("%d is zero\n", n);
 	}
