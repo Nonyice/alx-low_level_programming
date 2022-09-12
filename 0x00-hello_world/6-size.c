@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * Descripion: print size of type
+ * Descripion: print size of type on this computer
  * Return: Always 0 (Success)
  */
 int main(void)
@@ -10,7 +10,7 @@ int main(void)
 	long int longintType;
 	long long int longlongintType;
 	float floatType;
-		
+	
 	printf("Size of a char: %zu byte(s)\n", sizeof(charType));
 	printf("Size of an int: %zu byte(s)\n", sizeof(intType));
 	printf("Size of a long int: %zu byte(s)\n", sizeof(longintType));
