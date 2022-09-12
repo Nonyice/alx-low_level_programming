@@ -1,12 +1,11 @@
 #include <stdio.h>
 /*program to print size of type*/
 int main(void)
-	{
-	char charType;
-	int intType;
-	long int longintType;
-	long long int longlongintType;
-	float floatType;
+	{	char charType;
+		int intType;
+		long int longintType;
+		long long int longlongintType;
+		float floatType;
 /**
  * main - print size of type
  * Description:sizeof type and byte(s)
