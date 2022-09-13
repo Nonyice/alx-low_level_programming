@@ -1,4 +1,4 @@
-#include <stdio.h>>
+#include <stdio.h>
 /**
  * main - pri _putchar
  *
@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	char putchar = _putchar;
+	char putcha = putchar;
 
 	{
 	printf(_putchar\n);
