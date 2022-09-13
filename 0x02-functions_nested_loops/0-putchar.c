@@ -6,10 +6,10 @@
  */
 int main(void)
 {
-	char str[] = "_putchar"
+	char str[] = "_putchar";
 
 	{
-	printf(_putchar\n);
+	printf("_putchar\n");
 	}
 	return (0);
 }
