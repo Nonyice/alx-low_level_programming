@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	char putcha = putchar;
+	char str[] = "_putchar"
 
 	{
 	printf(_putchar\n);
