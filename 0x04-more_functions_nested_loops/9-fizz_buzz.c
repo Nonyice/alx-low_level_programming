@@ -1,35 +1,41 @@
 #include <stdio.h>
 /**
- * main - check the code for Holberton School students.
- *
- * Return: void.
- */
+ *main - program that prints either number
+or fizz or buzz or fizzBuzz
+*
+*
+*Return: returns 0
+*/
 int main(void)
 {
-	int i = 1;
+int num = 1;
 
-	while (i <= 100)
-	{
-	if (i % 3 == 0 && i % 5 == 0)
-	{
-	printf("FizzBuzz");
-	}
-	else if (i % 3 == 0)
-	{
-	printf("Fizz");
-	}
-	else if (i % 5 == 0)
-	{
-	printf("Buzz");
-	}
-	else
-	{
-	printf("%i", i);
-	if (i != 100)
-	putchar(' ');
-	}
-	i++;
-	}
-	putchar('\n');
-	return;
+while (num++ < 100)
+{
+if ((num % 3 == 0) && (num % 5 == 0))
+{
+printf("FizzBuzz ");
+}
+else if ((num % 3) == 0)
+{
+printf("Fizz ");
+}
+else if ((num % 5) == 0)
+{
+if (num != 100)
+{
+printf("Buzz ");
+}
+else
+{
+printf("Buzz");
+}
+}
+else
+{
+printf("%d ", num);
+}
+}
+printf("\n");
+return (0);
 }
