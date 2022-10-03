@@ -2,10 +2,10 @@
 #include <stdlib.h>
  /**
   *_strdup - returns a pointer to a newly alloctaed
-  *space in memory which contains a copy of the string
+  space in memory which contains a copy of the string
   *passed.
   *@str: pointer to string being duplicated.
-  *
+  *@_strdup:function to main
   *Return: NULL if str is NULL.
   *pointer to duplicated string on success.
   *NULL if memory was insufficient.
