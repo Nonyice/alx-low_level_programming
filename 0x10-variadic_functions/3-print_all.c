@@ -51,17 +51,17 @@ void print_all(const char * const format, ...)
 	nt i = 0, j = 0;
 	har *sep = "";
 
-	rintTypeStruct printType[] = 
-	{
+	rintTypeStruct printType[] = {
 	{ "i", print_int },
 	{ "f", print_float },
 	{ "c", print_char },
 	{ "s", print_str },
-	{NULL, NULL}};
+	{NULL, NULL}
+	};
 	a_start(list, format);
 
 	while (format && format[i])
-{
+	{
 	j = 0;
 	while (j < 4)
 	{
@@ -75,7 +75,7 @@ void print_all(const char * const format, ...)
 	j++;
 	}
 	i++;
-}
+	}
 	printf("\n");
 	va_end(list);
 }
