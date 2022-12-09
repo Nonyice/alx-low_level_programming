@@ -1,0 +1,1 @@
+Doubly linked list . a dual access link list.
