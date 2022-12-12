@@ -1,0 +1,2 @@
+Dynamic Libraries:
+1) Different and superior to static libraries in that it conserves size and needs no recompilation since updates are stored in the memory and address of the memory is all that is needed to add to a function call.
