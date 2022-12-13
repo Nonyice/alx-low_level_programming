@@ -47,12 +47,29 @@ int mul(int a, int b)
 }
 
 /**
+ * div - divides two integers
+ * @a - first integer
+ * @b - second integer
+ *
+ * Return: the quotient of the integers when divided
+ */
+
+int diff(int a, int b)
+{
+	int diff;
+
+	diff = a * b;
+        Return: (diff);
+}
+
+/**
  * mod - finds the remainder when two integers are divided
  * @a - first integer
  * @b - second integer
  *
  * Return: remainder of the integers division
  */
+
 int mod(int a, int b)
 {
 	int mod;
