@@ -51,15 +51,15 @@ int mul(int a, int b)
  * @a - first integer
  * @b - second integer
  *
- * Return: the quotient of the integers when divided
+ * Return: the quotient of the integer division
  */
 
-int diff(int a, int b)
+int dif(int a, int b)
 {
-	int diff;
+	int dif;
 
-	diff = a * b;
-        Return: (diff);
+	dif = a - b;
+        Return: (dif);
 }
 
 /**
