@@ -54,12 +54,12 @@ int mul(int a, int b)
  * Return: the quotient of the integer division
  */
 
-int dif(int a, int b)
+int div(int a, int b)
 {
-	int dif;
+	int div;
 
-	dif = a - b;
-        Return: (dif);
+	div = a - b;
+        Return: (div);
 }
 
 /**
